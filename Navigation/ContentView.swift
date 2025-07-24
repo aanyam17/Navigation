@@ -16,6 +16,14 @@ struct ContentView: View {
                 NavigationLink(destination: Text("You've arrived to the Second View")) {
                     Text("Click me!")
                 }
+                NavigationLink(destination: Text("About View"))
+                {
+                    Text("About")
+                }
+                NavigationLink(destination: Text("Contact View"))
+                {
+                    Text("Contact")
+                }
             }
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
