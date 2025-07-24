@@ -14,7 +14,7 @@ struct ContentView: View {
             VStack {
                 Text("This is the root view 🌳")
                 NavigationLink(destination: Text("You've arrived to the Second View")) {
-                    Text("Click me!")
+                    Image("clickme")
                 }
                 NavigationLink(destination: Text("About View"))
                 {
@@ -24,10 +24,12 @@ struct ContentView: View {
                 NavigationLink(destination: Text("Contact View"))
                 {
                     Text("Contact")
+                        .foregroundColor(Color.pink)
                 }
                 NavigationLink(destination: Text("Help View"))
                 {
                     Text("Help")
+                        .foregroundColor(Color.pink)
                 }
             }
             .navigationTitle("Home")
