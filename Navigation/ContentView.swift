@@ -18,7 +18,8 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: Text("About View"))
                 {
-                    Text("About")
+                    Image("about")
+                        .aspectRatio(contentMode: .fit)
                 }
                 NavigationLink(destination: Text("Contact View"))
                 {
@@ -26,7 +27,7 @@ struct ContentView: View {
                 }
                 NavigationLink(destination: Text("Help View"))
                 {
-                    Text("View")
+                    Text("Help")
                 }
             }
             .navigationTitle("Home")
