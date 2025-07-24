@@ -24,6 +24,10 @@ struct ContentView: View {
                 {
                     Text("Contact")
                 }
+                NavigationLink(destination: Text("Help View"))
+                {
+                    Text("View")
+                }
             }
             .navigationTitle("Home")
             .navigationBarTitleDisplayMode(.inline)
