@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4C954DAC2E32BD0F00D1A536 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C954DAB2E32BD0F00D1A536 /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4C954D9D2E32BB0500D1A536 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C954DAB2E32BD0F00D1A536 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		4C954D942E32BB0500D1A536 = {
 			isa = PBXGroup;
 			children = (
+				4C954DAB2E32BD0F00D1A536 /* SecondView.swift */,
 				4C954D9F2E32BB0500D1A536 /* Navigation */,
 				4C954D9E2E32BB0500D1A536 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C954DAC2E32BD0F00D1A536 /* SecondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
